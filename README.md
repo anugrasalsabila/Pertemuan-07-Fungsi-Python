@@ -31,14 +31,14 @@ python praktik/utilitas_matematika.py
 
 ### Latihan 1 - Fungsi Salam
 
-Input:
+ Input:  
  Nama = Intan Anugra Salsabila  
  Kelas = 3F   
 
-Hasil yang diharapkan:  
+ Hasil yang diharapkan:  
  Program menampilkan salam beserta nama dan kelas.
 
-Hasil aktual:  
+ Hasil aktual:  
  Halo, Intan Anugra Salsabila dari kelas 3F. Selamat belajar Python!
 
 ### Latihan 2 - Luas Persegi Panjang
