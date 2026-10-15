@@ -97,8 +97,6 @@ python praktik/utilitas_matematika.py
 | n = 5 | 120 | 120 |
 | n = 0 | 1 | 1 |
 
-Catatan: Hasil aktual di atas perlu dicocokkan dengan keluaran program yang benar-benar dijalankan di terminal VS Code.
-
 ## Refleksi
 
-Setelah program dibagi menjadi beberapa fungsi, kode menjadi lebih terstruktur dan mudah dibaca. Setiap fungsi memiliki tugas tertentu sehingga rumus dapat digunakan kembali tanpa menulis ulang kode. Parameter digunakan untuk menerima data, sedangkan return digunakan untuk mengembalikan hasil perhitungan agar dapat digunakan pada bagian program lain. Pemahaman scope membantu membedakan variabel lokal dan variabel global.
+Setelah program dibagi menjadi beberapa fungsi, kode menjadi lebih terstruktur dan mudah dibaca. Setiap fungsi memiliki tugas tertentu sehingga rumus dapat digunakan kembali tanpa menulis ulang kode. Parameter digunakan untuk menerima data, sedangkan return digunakan untuk mengembalikan hasil perhitungan agar dapat digunakan pada bagian program lain. Pemahaman scope membantu membedakan variabel lokal dan variabel global. 
