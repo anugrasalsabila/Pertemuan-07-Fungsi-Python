@@ -2,7 +2,7 @@
 
  Nama: Intan Anugra Salsabila  
  NIM: 2225250154  
- Kelas: 3F
+ Kelas: 3F  
 
 ## Tujuan
 
@@ -32,8 +32,8 @@ python praktik/utilitas_matematika.py
 ### Latihan 1 - Fungsi Salam
 
 Input:
- Nama = Intan Anugra Salsabila
- Kelas = 3F
+ Nama = Intan Anugra Salsabila  
+ Kelas = 3F   
 
 Hasil yang diharapkan:  
  Program menampilkan salam beserta nama dan kelas.
