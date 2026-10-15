@@ -1,8 +1,8 @@
 # Pertemuan 07 Fungsi Python
 
-Nama: Intan Anugra Salsabila
-NIM: 2225250154
-Kelas: 3F
+- Nama: Intan Anugra Salsabila  
+- NIM: 2225250154  
+- Kelas: 3F
 
 ## Tujuan
 
@@ -18,96 +18,57 @@ python praktik/utilitas_matematika.py
 
 ## Struktur Fungsi
 
-1. salam(nama, kelas): menerima nama dan kelas sebagai parameter, kemudian menampilkan salam.
-2. luas_persegi_panjang(p, l): menghitung luas persegi panjang dan mengembalikan hasil menggunakan return.
-3. jumlah_n(n): menghitung jumlah bilangan dari 1 sampai n menggunakan perulangan for.
-4. statistik(data): menghitung nilai minimum, maksimum, dan rata-rata data.
-5. demo(x): menunjukkan perbedaan variabel lokal dan variabel global.
-6. luas_segitiga(a, t): menghitung luas segitiga dan mengembalikan hasil menggunakan return.
-7. faktorial(n): menghitung faktorial menggunakan perulangan dan mengembalikan hasil.
-8. tampilkan_menu(): menampilkan pilihan operasi matematika.
+1. `salam(nama, kelas)`: menerima nama dan kelas sebagai parameter, kemudian menampilkan salam.
+2. `luas_persegi_panjang(p, l)`: menghitung luas persegi panjang dan mengembalikan hasil menggunakan return.
+3. `jumlah_n(n)`: menghitung jumlah bilangan dari 1 sampai n menggunakan perulangan for.
+4. `statistik(data)`: menghitung nilai minimum, maksimum, dan rata-rata data.
+5. `demo(x)`: menunjukkan perbedaan variabel lokal dan variabel global.
+6. `luas_segitiga(a, t)`: menghitung luas segitiga dan mengembalikan hasil menggunakan return.
+7. `faktorial(n)`: menghitung faktorial menggunakan perulangan dan mengembalikan hasil.
+8. `tampilkan_menu()`: menampilkan pilihan operasi matematika.
 
 ## Hasil Pengujian
 
 ### Latihan 1 - Fungsi Salam
 
 Input:
-Nama = Intan Anugra Salsabila
-Kelas = 3F
+- Nama = Intan Anugra Salsabila
+- Kelas = 3F
 
-Hasil yang diharapkan:
-Program menampilkan salam beserta nama dan kelas.
+Hasil yang diharapkan:  
+- Program menampilkan salam beserta nama dan kelas.
 
-Hasil aktual:
-Halo, Intan Anugra Salsabila dari kelas 3F. Selamat belajar Python!
+Hasil aktual:  
+- Halo, Intan Anugra Salsabila dari kelas 3F. Selamat belajar Python!
 
 ### Latihan 2 - Luas Persegi Panjang
 
-Pengujian pertama:
-Input: p = 8, l = 5
-Hasil yang diharapkan: 40
-Hasil aktual: 40.0
-
-Pengujian kedua:
-Input: p = 2.5, l = 4
-Hasil yang diharapkan: 10
-Hasil aktual: 10.0
-
-Pengujian ketiga:
-Input: p = 0, l = 7
-Hasil yang diharapkan: 0
-Hasil aktual: 0.0
+| Input | Hasil yang Diharapkan | Hasil Aktual |
+|---|---|---|
+| p = 8, l = 5 | 40 | 40.0 |
+| p = 2.5, l = 4 | 10 | 10.0 |
+| p = 0, l = 7 | 0 | 0.0 |
 
 ### Latihan 3 - Jumlah 1 sampai n
 
-Pengujian pertama:
-Input: n = 1
-Hasil yang diharapkan: 1
-Hasil aktual: 1
-
-Pengujian kedua:
-Input: n = 5
-Hasil yang diharapkan: 15
-Hasil aktual: 15
-
-Pengujian ketiga:
-Input: n = 10
-Hasil yang diharapkan: 55
-Hasil aktual: 55
-
-Pengujian keempat:
-Input: n = 100
-Hasil yang diharapkan: 5050
-Hasil aktual: 5050
+| Input | Hasil yang Diharapkan | Hasil Aktual |
+|---|---|---|
+| n = 1 | 1 | 1 |
+| n = 5 | 15 | 15 |
+| n = 10 | 55 | 55 |
+| n = 100 | 5050 | 5050 |
 
 ### Latihan 4 - Statistik Sederhana
 
-Input:
-Data = [70, 80, 65, 90, 75]
-
-Hasil yang diharapkan:
-Nilai minimum = 65
-Nilai maksimum = 90
-Rata-rata = 76.0
-
-Hasil aktual:
-Nilai minimum = 65.0
-Nilai maksimum = 90.0
-Rata-rata = 76.0
+| Input | Hasil yang Diharapkan | Hasil Aktual |
+|---|---|---|
+| Data = [70, 80, 65, 90, 75] | Minimum = 65<br>Maksimum = 90<br>Rata-rata = 76.0 | Minimum = 65.0<br>Maksimum = 90.0<br>Rata-rata = 76.0 |
 
 ### Latihan 5 - Eksperimen Scope
 
-Input:
-x = 10
-demo(20)
-
-Hasil yang diharapkan:
-Variabel x di luar fungsi tetap 10 dan hasil fungsi adalah 25.
-
-Hasil aktual:
-di dalam fungsi: 20 25
-di luar fungsi: 10 25
-
+| Input | Hasil yang Diharapkan | Hasil Aktual |
+|---|---|---|
+| x = 10, demo(20) | x di dalam fungsi = 20<br>y = 25<br>x di luar fungsi = 10<br>hasil = 25 | di dalam fungsi: 20 25<br>di luar fungsi: 10 25 |
 
 ### Praktik 2 - Utilitas Matematika Modular
 
@@ -133,9 +94,10 @@ di luar fungsi: 10 25
 
 | Input | Hasil yang Diharapkan | Hasil Aktual |
 |---|---|---|
-| n = 5 | 120 | 120 | 
-| n = 0 | 1 | 1 | 
+| n = 5 | 120 | 120 |
+| n = 0 | 1 | 1 |
 
+Catatan: Hasil aktual di atas perlu dicocokkan dengan keluaran program yang benar-benar dijalankan di terminal VS Code.
 
 ## Refleksi
 
