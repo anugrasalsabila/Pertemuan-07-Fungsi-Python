@@ -1,8 +1,8 @@
 # Pertemuan 07 Fungsi Python
 
-- Nama: Intan Anugra Salsabila  
-- NIM: 2225250154  
-- Kelas: 3F
+ Nama: Intan Anugra Salsabila  
+ NIM: 2225250154  
+ Kelas: 3F
 
 ## Tujuan
 
@@ -32,14 +32,14 @@ python praktik/utilitas_matematika.py
 ### Latihan 1 - Fungsi Salam
 
 Input:
-- Nama = Intan Anugra Salsabila
-- Kelas = 3F
+ Nama = Intan Anugra Salsabila
+ Kelas = 3F
 
 Hasil yang diharapkan:  
-- Program menampilkan salam beserta nama dan kelas.
+ Program menampilkan salam beserta nama dan kelas.
 
 Hasil aktual:  
-- Halo, Intan Anugra Salsabila dari kelas 3F. Selamat belajar Python!
+ Halo, Intan Anugra Salsabila dari kelas 3F. Selamat belajar Python!
 
 ### Latihan 2 - Luas Persegi Panjang
 
